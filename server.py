@@ -11,7 +11,7 @@ Chạy:
 """
 import os
 
-from mcp.server import FastMCP
+from mcp.server.fastmcp import FastMCP
 
 from config import DEFAULT_TOP_K
 from vector_store import embed_texts, get_collection
